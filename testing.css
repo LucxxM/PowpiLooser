@@ -1,0 +1,39 @@
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#blue{
+    flex-direction: row;
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+
+
+h1{
+    color: red;
+}
+
+div{
+    border: 2px solid black;
+    background-color: aqua;
+    height: 20px;
+    width: 20px;
+    z-index: -1 !important;
+    
+}
+
+#principale{
+    z-index: 2 !important;
+    height: 750px;
+    width: 750px;
+    background: url("./images/firmament-vr.jpg") no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
